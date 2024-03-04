@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { CircularProgress, Button } from "@mui/material";
 import { fetchCountryDetail } from "../../services/countries.service";
@@ -34,7 +34,7 @@ export function CountryDetail() {
   // Display loading indicator
   if (isLoading) {
     return (
-      <div className="flex justify-center items-center min-h-screen">
+      <div className="flex justify-center items-center h-24">
         <CircularProgress />
       </div>
     );
