@@ -71,7 +71,8 @@ This will run all tests and output the results.
 
 ## Project Structure
 
-- **CountryDetail Component**: The main component that fetches and displays the details of a country. It uses `useParams` to get the country name from the URL and `useNavigate` for navigation.
+- **Components**: The main components for listing countries and viewing the details.
+  
 - **services/countries.service.ts**: Contains the `fetchCountries` and `fetchCountryDetail` functions for making API requests to the REST Countries API.
 
 ## API Reference
