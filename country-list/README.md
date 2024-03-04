@@ -1,6 +1,6 @@
 # Country list
 
-This project is a React application that utilizes TypeScript to provide a user-friendly interface for viewing details of countries. It leverages the REST Countries API to fetch and display country-specific information.
+This project is a React application that utilizes TypeScript to provide a user-friendly interface for viewing details of countries. It uses the REST Countries API to fetch and display country-specific information.
 
 ## Features
 
@@ -10,9 +10,11 @@ This project is a React application that utilizes TypeScript to provide a user-f
 
 ## Technologies Used
 
-To create the app, vite was used:
+To bootstrap the application, vite - https://vitejs.dev/ was used:
 
-- npm create vite@latest my-react-app -- --template react
+```bash
+npm create vite@latest my-react-app -- --template react
+```
 
 Technologies used:
 
@@ -66,14 +68,6 @@ Generate a production-ready build by running:
 ```bash
 npm run build
 ```
-
-This will run all tests and output the results.
-
-## Project Structure
-
-- **Components**: The main components for listing countries and viewing the details.
-  
-- **services/countries.service.ts**: Contains the `fetchCountries` and `fetchCountryDetail` functions for making API requests to the REST Countries API.
 
 ## API Reference
 
